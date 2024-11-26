@@ -91,11 +91,15 @@ a:hover {
   justify-content: center;
   align-items: center;
   position: relative;
+  height: 100vh;
+
 }
 
 .hero--video {
   width: 100%;
   filter: brightness(.5);
+  height: 100%;
+  object-fit: cover;
 }
 
 .hero--text {
@@ -232,6 +236,12 @@ a:hover {
 
 .collection-img {
   width: 100%;
+  transition: .3s;
+}
+
+.collection-img:hover {
+  transform: scale(1.05);
+  filter: contrast(1.2);
 }
 
 .collection-title:hover {
@@ -273,8 +283,16 @@ footer {
     visibility: hidden; 
    }
 
+   .hero {
+    height: unset;
+   }
+   
    .hero--text {
      font-size: 1.4rem;
+   }
+
+   .hero--video {
+    height: unset;
    }
 
    .about {

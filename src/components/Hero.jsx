@@ -13,7 +13,7 @@ export default function Hero() {
                </h1>
 
                <p className='hero--p'>
-                a museum outside space and time that collects the moments consciousness slips away while the body's enraptured in dance
+                a museum outside space and time that collects the moments consciousness slips away while the body is enraptured in dance
                </p>
 
                <a className='hero--learn-more' href="#about">learn more</a>
