@@ -68,6 +68,7 @@ so i thought about using position:fixed for the video and make it as big as the 
 so i gave it a position of absolute, but then the rest of the content would overlap with it.
 
 so i gave the text of the hero a position of absolute, and it works fine, unless the screen starts becoming really small, at which point the design breaks.
+edit: no, nevermind. it now takes up all the screen's height on small devices so it's all good.
 
 ### third headache: the grid
 

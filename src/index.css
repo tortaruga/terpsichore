@@ -108,7 +108,8 @@ a:hover {
   margin: auto;
   color: var(--white);
   position: absolute;
-  font-size: 3vw; 
+  font-size: 1.4rem; 
+  padding: 1rem;
 }
 
 .hero--title {
@@ -285,10 +286,6 @@ footer {
 
    .hero {
     height: unset;
-   }
-   
-   .hero--text {
-     font-size: 1.4rem;
    }
 
    .hero--video {
